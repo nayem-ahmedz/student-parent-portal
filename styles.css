@@ -9,12 +9,12 @@ body{
 /* Header */
 header{
     padding: 10px 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: #ccc; width: 100%;
-    display: flex; justify-content: space-between;
+    display: flex; justify-content: space-between; flex-wrap: wrap;
 }
-.h-left h1{
+.h-left > h1{
     font-size: 40px; font-weight: 500; margin: 8px;
 }
-.h-left h3{
+.h-left > h3{
     font-weight: lighter; margin: 20px 8px;
 }
 
@@ -59,8 +59,12 @@ nav{
 .top-nav li > a:hover, .top-nav li:hover .d-btn{
     background-color: black; color: white;
 }
+.d-btn{
+    pointer-events: none;
+    cursor: default;
+}
 .d-content{
-    display: none; background-color: white; width: 220px; position: absolute; top: 39px; z-index: 1;
+    display: none; background-color: white; width: 220px; position: absolute; top: 39px; z-index: 1; box-shadow: 0 0 5px rgba(0,0,0, 0.5);
 }
 .top-nav li:hover .d-content{
     display: block;
@@ -72,6 +76,57 @@ nav{
     background-color: gray; color: white;
 }
 
+/* Section */
+
+/* Top Panel */
+.top-panel{
+    padding: 15px; margin: 10px auto; background-color: rgba(255, 255, 255, 0.5);
+}
+.top-panel > a:link, .top-panel a:visited{
+    text-decoration: none; font-size: 18px;
+}
+.top-panel > h1{
+    font-size: 32px; font-weight: lighter; margin: 15px auto 10px -4px; opacity: 0.9;
+}
+
+
+/* Main */
+.main{
+    min-height: 500px;
+    border: 1px solid;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+.main-center{
+    text-align: center;
+}
+.main-center > p{
+    font-size: 28px;
+}
+.main-center > h2{
+    font-size: 40px; margin: -20px auto 25px;
+}
+.main > button{
+    background-color: white; padding: 10px 20px; font-size: 16px; border: none; border-radius: 10px; cursor: pointer; transition: 0.5s;
+}
+.main > button:hover{
+    background-color: blue; color: white;
+}
+
+/* bottom */
+.bottom{
+    min-height: 500px; padding: 60px 40px;
+    border: 1px solid;
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
+}
+.map-frame{
+    flex-basis: 500px; height: 350px;
+}
+#map{
+    width: 100%; height: 100%; border: 1px solid blue;
+}
+.b-panel{
+    width: 300px; height: 350px; border: 1px solid;
+}
 
 /* Media Screen */
 @media screen and (min-width: 1600px){
