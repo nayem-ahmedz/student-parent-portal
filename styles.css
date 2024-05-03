@@ -128,9 +128,113 @@ nav{
     width: 300px; height: 350px; border: 1px solid;
 }
 
+/* rayhan footer design */
+
+ 
+.container {
+
+    display: flex;
+    color:gray;
+
+}
+
+.left { 
+
+    flex: 1; /* Equal width for all divs */
+    border: 1px solid black; /* Just for visualization */
+    
+}
+
+.middle {
+    flex: 4; /* Middle div takes twice the width */
+}
+
+.fast
+{
+
+    flex:2; 
+    
+}
+.second
+{
+   flex:3; 
+   padding-left: 100px;
+   /* margin: 0 auto;  */
+   padding-left:100px; 
+ 
+
+}
+.div1
+{
+    display:flex; 
+   
+}
+.div2
+{
+
+    flex:1; 
+}
+.div3
+{
+
+    flex:2; 
+}
+
+#pid1
+{
+   color:white; 
+   text-align:center; 
+   margin:0 auto; 
+   padding-top:10px; 
+
+}
+.div_p
+{
+   color:gray; 
+   padding:0 px; 
+   margin:0 px; 
+
+}
+
+footer
+{
+   background-color: black;
+   
+}
+
+#reg_id
+{
+
+    text-align:center; 
+}
+.signup
+{
+
+  
+  
+    border:3px solid black;  
+   text-align: center; 
+   margin: 0 auto; 
+  
+
+
+}
+#button_id
+{ 
+      background-color:darkolivegreen;
+      text-align:center; 
+      height:25px;
+       width: 80px;
+       margin-top:10px; 
+}
+/* rayhan footer design  done */
+
+
+
 /* Media Screen */
 @media screen and (min-width: 1600px){
     body{
         padding: 0 250px;
     }
 }
+
