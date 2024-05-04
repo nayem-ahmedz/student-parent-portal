@@ -2,13 +2,10 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0; background: linear-gradient(90deg, purple, red); min-height: 100vh;
-}
-.centered{
-    display: flex; justify-content: center; align-items: center; min-height: inherit;
+    margin: 0; background: linear-gradient(90deg, purple, rgb(245, 67, 155));
 }
 .box{
-    max-width: 350px; background-color: white; padding: 20px 25px 10px; border-radius: 5px;
+    max-width: 350px; background-color: #eee; padding: 20px 25px 10px; border-radius: 5px; margin: 100px auto;
 }
 .welcome-txt{
     margin-bottom: 35px;
@@ -17,12 +14,12 @@ body{
     border: 1px solid rgba(0,0,0, 0.2); width: fit-content; margin: auto; border-radius: 5px; margin-bottom: 35px;
 }
 .top-box > button{
-    padding: 8px 45px; font-size: 16px; margin: 0; border: 0; background-color: white; border-radius: 5px; 
+    padding: 8px 45px; font-size: 16px; margin: 0; border: 0; border-radius: 5px; 
 }
 #signin-btn, .submit-btn{
-    background: linear-gradient(90deg, red, purple); color: white;
+    background: linear-gradient(225deg, purple, rgb(245, 67, 155)); color: white;
 }
-#signin-eq > form > input{
+.forms > form > input{
     display: block; width: 287px; margin-top: 18px; padding: 12px; border-radius: 5px; border: 1px solid rgba(0,0,0, 0.2); box-shadow: 0 1px 1px rgba(0,0,0, 0.3);
 }
 #forgot-btn{
@@ -30,6 +27,9 @@ body{
 }
 .submit-btn{
     font-size: 16px;
+}
+.submit-btn:hover{
+    outline: 1px solid purple; background: none; color: black;
 }
 .cent{
     text-align: center; font-family: arial; 
@@ -39,4 +39,7 @@ body{
 }
 .b-end > button{
     background: none; border: 0; font-size: 15px; color: purple;
+}
+#signup-eq{
+    display: none;
 }
