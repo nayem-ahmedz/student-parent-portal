@@ -12,6 +12,7 @@
     
  height:35px; 
   width:125px; 
+  
  
 
 
@@ -25,7 +26,7 @@
  color:red; 
  height:35px; 
   width:125px; 
-
+  background: linear-gradient(to right ,#AE44B0, #F3429C);
 
 
 }
@@ -172,7 +173,33 @@
 }
 
 
+#signupButton1
+{
 
+
+    
+ height:35px; 
+  width:125px; 
+  background: linear-gradient(to right ,#AE44B0, #F3429C);
+  
+ 
+
+
+
+}
+#loginButton1
+{
+
+  
+
+ color:red; 
+ height:35px; 
+  width:125px; 
+  
+
+
+}
+ 
 
 
 
