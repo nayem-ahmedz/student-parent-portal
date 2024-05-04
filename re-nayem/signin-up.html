@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/re-nayem/styles.css">
+</head>
+<body>
+    <div class="centered">
+        <div class="box">
+            <h1 class="cent welcome-txt">Welcome</h1>
+            <div class="top-box">
+                <button type="button" onclick="signinFun()" id="signin-btn">Sign in</button>
+                <button type="button" onclick="signupFun()" id="signup-btn">Sign up</button>
+            </div>
+            <div id="signin-eq">
+                <form id="signinForm">
+                    <input type="email" id="user-email" name="user-email" placeholder="Email Address" required>
+                    <input type="password" id="user-psw" name="user-psw" placeholder="Password" required>
+                    <a href="#" id="forgot-btn">Forgot Password?</a>
+                    <input type="submit" value="Sign In" class="submit-btn">
+                </form>
+            </div>
+            <p class="cent b-end">Not a user? <button type="button">Sign up now</button> </p>
+        </div>
+    </div>
+</body>
+</html>
