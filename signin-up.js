@@ -13,4 +13,4 @@ let logInbtn1 = document.getElementById("loginButton1");
         signupDiv1.style.display = "none";    
         logIn.style.display = "block"; 
      });
-   
+   console.log("hello");
