@@ -43,3 +43,64 @@ body{
 #signup-eq{
     display: none;
 }
+
+/* Pages : marks and tution fees */
+.marks-form{
+    max-width: 900px; margin: auto; border: 1px solid; padding: 15px;
+}
+.row{
+    margin-bottom: 15px;
+}
+.row::after{
+    content: ""; clear: both; display: table;
+}
+.col1{
+    width: 40%; float: left; text-align: right;
+}
+.col2{
+    width: 60%; float: left;
+}
+.col1 > label{
+    display: inline-block; padding: 8px 10px 8px 0;
+}
+.col2 > input, .col2 > select{
+    width: 230px; padding: 8px; border-radius: 5px; border: 1px solid gray;
+}
+.row:last-child{
+    text-align: center;
+}
+.btn{
+    padding: 7px 25px; border: 1px solid gray; border-radius: 10px; margin: 5px 10px; color: white; transition: 0.3s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.clear-btn{
+    background-color: red;
+}
+.submit-btn2{
+    background-color: green;
+}
+
+@media screen and (max-width: 425px){
+    .col1{
+        width: 33%;
+    }
+    .col2{
+        width: 67%;
+    }
+    .col12 > label{
+        padding-right: 0px;
+    }
+    .marks-form{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 374px){
+    .col1, .col2{
+        float: none; width: 100%;
+    }
+    .col1{
+        text-align: left;
+    }
+}
