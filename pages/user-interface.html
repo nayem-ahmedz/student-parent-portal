@@ -23,7 +23,7 @@
     </header>
     <nav>
         <ul class="top-nav">
-            <li> <a href="#" class="home-btn"> <i class="fa-solid fa-house-chimney"></i> </a> </li>
+            <li> <a href="/index.html" class="home-btn"> <i class="fa-solid fa-house-chimney"></i> </a> </li>
             <li>
                 <a href="" class="d-btn">About Us</a>
                 <div class="d-content">
@@ -59,8 +59,8 @@
         <article class="u-i">
             <div id="user-nav">
                 <p id="user-name" style="display: inline-block; margin: 5px;">user.name</p> 
-                <i class="fa-solid fa-angle-down"></i>
-                <div class="user-nav-content">
+                <i class="fa-solid fa-angle-down" onclick="hideUserNav()"></i>
+                <div class="user-nav-content" id="user-nav-x">
                     <button type="button">Edit Profile</button>
                     <button type="button">Setting</button>
                     <button type="button">Sign out</button>
@@ -78,25 +78,62 @@
                 <button onclick="myFun(2, event)" class="tab-name">Result</button>
                 <button onclick="myFun(3, event)" class="tab-name">University Fees</button>
                 <button onclick="myFun(4, event)" class="tab-name">Academics</button>
-                <button onclick="myFun(5, event)" class="tab-name"></button>
+                <button onclick="myFun(5, event)" class="tab-name">Others</button>
             </div>
             <div class="ui-right">
                 <button type="button" id="side-panel" onclick="showPanel()">&#9776;</button>
                 <div class="tabs" id="t1" style="display: block;">
-                    <h3>This is tabs 1</h3>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatem aperiam molestiae repellendus, recusandae ipsa nihil, quos quo officiis exercitationem quisquam nulla earum minus necessitatibus eligendi tenetur sed sapiente quasi quibusdam quis, consequuntur natus. Iure sapiente ipsam eos accusamus corporis tenetur mollitia, optio maiores necessitatibus corrupti ducimus, sed quia hic.
+                    <div id="user-snippet">
+                        <div id="user-pp-image"></div>
+                        <div class="user-info">
+                            <p>user.name</p>
+                            <p>user.id</p>
+                        </div>
+                        <div class="user-details">
+                            <table class="basic-table">
+                                <tr>
+                                    <th>Name :</th>
+                                    <td>user.name</td>
+                                </tr>
+                                <tr>
+                                    <th>Student ID :</th>
+                                    <td>user.id</td>
+                                </tr>
+                                <tr>
+                                    <th>Father's Name :</th>
+                                    <td>father.name</td>
+                                </tr>
+                                <tr>
+                                    <th>Mother's Name :</th>
+                                    <td>mother.name</td>
+                                </tr>
+                                <tr>
+                                    <th>Address :</th>
+                                    <td>user.address</td>
+                                </tr>
+                                <tr>
+                                    <th>others :</th>
+                                    <td>others.info</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
                 </div>
-                <div class="tabs" id="t2">
-                    <h3>This is tabs 2</h3>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatem aperiam molestiae repellendus, recusandae ipsa nihil, quos quo officiis exercitationem quisquam nulla earum minus necessitatibus eligendi tenetur sed sapiente quasi quibusdam quis, consequuntur natus. Iure sapiente ipsam eos accusamus corporis tenetur mollitia, optio maiores necessitatibus corrupti ducimus, sed quia hic.
+                <div class="tabs last" id="t2">
+                    <h2>Click on the button below to view Results</h2>
+                    <button type="button">View Result</button>
                 </div>
-                <div class="tabs" id="t3">
-                    <h3>This is tabs 3</h3>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatem aperiam molestiae repellendus, recusandae ipsa nihil, quos quo officiis exercitationem quisquam nulla earum minus necessitatibus eligendi tenetur sed sapiente quasi quibusdam quis, consequuntur natus. Iure sapiente ipsam eos accusamus corporis tenetur mollitia, optio maiores necessitatibus corrupti ducimus, sed quia hic.
+                <div class="tabs last" id="t3">
+                    <h2>Click on the button below to tract university fees</h2>
+                    <button type="button">View Result</button>
                 </div>
-                <div class="tabs" id="t4">
+                <div class="tabs last" id="t4">
                     <h3>This is tabs 4</h3>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatem aperiam molestiae repellendus, recusandae ipsa nihil, quos quo officiis exercitationem quisquam nulla earum minus necessitatibus eligendi tenetur sed sapiente quasi quibusdam quis, consequuntur natus. Iure sapiente ipsam eos accusamus corporis tenetur mollitia, optio maiores necessitatibus corrupti ducimus, sed quia hic.
+                </div>
+                <div class="tabs last" id="t5">
+                    <h3>This is tabs 5</h3>
+                    Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laborum nobis corporis, non ducimus excepturi, obcaecati sequi quis quod magnam neque. Ea repellat nihil, pariatur iste enim magnam necessitatibus numquam, nesciunt eius quos velit aspernatur maxime voluptates quisquam quis placeat. Vitae atque harum suscipit hic aliquid velit cumque aliquam autem! sit amet consectetur adipisicing elit. Magnam voluptatem aperiam molestiae repellendus, recusandae ipsa nihil, quos quo officiis exercitationem quisquam nulla earum minus necessitatibus eligendi tenetur sed sapiente quasi quibusdam quis, consequuntur natus. Iure sapiente ipsam eos accusamus corporis tenetur mollitia, optio maiores necessitatibus corrupti ducimus, sed quia hic.
                 </div>
             </div>
         </article>
