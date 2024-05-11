@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Parent Portal</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/assets/user-interface.css">
+    <script src="https://kit.fontawesome.com/e54598ab59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="h-left">
+            <h1>Metropolitan University</h1>
+            <h3>Work for Excelency</h3>
+        </div>
+        <div class="h-right">
+            <img src="/assets/mu-logo-nobg.png" class="h-logo">
+            <div class="icons i1"></div>
+            <div class="icons i2"></div>
+            <div class="icons i3"></div>
+        </div>
+    </header>
+    <nav>
+        <ul class="top-nav">
+            <li> <a href="#" class="home-btn"> <i class="fa-solid fa-house-chimney"></i> </a> </li>
+            <li>
+                <a href="" class="d-btn">About Us</a>
+                <div class="d-content">
+                    <a href="">Mission, Vision and Goals</a>
+                    <a href="">General information</a>
+                    <a href="">Office</a>
+                    <a href="">Our Campus</a>
+                    <a href="">Contact Us</a>
+                </div>
+            </li>
+            <li>
+                <a href="" class="d-btn">Admission</a>
+                <div class="d-content">
+                    <a href="">Admission Requirements</a>
+                    <a href="">Programs</a>
+                    <a href="">Apply</a>
+                </div>
+            </li>
+            <li>
+                <a href="" class="d-btn">Academic</a>
+                <div class="d-content">
+                    <a href="">Departsments</a>
+                    <a href="">Academic Information</a>
+                    <a href="">Academic Calender</a>
+                    <a href="">Notice and Events</a>
+                </div>
+            </li>
+            <li> <a href="">Results</a> </li>
+            <li> <a href="">Fees</a> </li>
+        </ul>
+    </nav>
+    <section>
+        <article class="u-i">
+            <div id="user-nav">
+                <p id="user-name" style="display: inline-block; margin: 5px;">user.name</p> 
+                <i class="fa-solid fa-angle-down"></i>
+                <div class="user-nav-content">
+                    <button type="button">Edit Profile</button>
+                    <button type="button">Setting</button>
+                    <button type="button">Sign out</button>
+                </div>
+            </div>
+        </article>
+        <article class="user-interface">
+            <div class="ui-left" id="ui-LEFT">
+                <p style="text-align: right; margin: 0;">
+                    <button onclick="closePanel()" id="side-panel-x">&times;</button>
+                </p>
+                <div class="ui-image"></div>
+                <p id="ui-username">user.name</p>
+                <button onclick="myFun(1, event)" class="tab-name ui-active">Dashboard</button>
+                <button onclick="myFun(2, event)" class="tab-name">Result</button>
+                <button onclick="myFun(3, event)" class="tab-name">University Fees</button>
+                <button onclick="myFun(4, event)" class="tab-name">Academics</button>
+                <button onclick="myFun(5, event)" class="tab-name"></button>
+            </div>
+            <div class="ui-right">
+                <button type="button" id="side-panel" onclick="showPanel()">&#9776;</button>
+                <div class="tabs" id="t1" style="display: block;">
+                    <h3>This is tabs 1</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatem aperiam molestiae repellendus, recusandae ipsa nihil, quos quo officiis exercitationem quisquam nulla earum minus necessitatibus eligendi tenetur sed sapiente quasi quibusdam quis, consequuntur natus. Iure sapiente ipsam eos accusamus corporis tenetur mollitia, optio maiores necessitatibus corrupti ducimus, sed quia hic.
+                </div>
+                <div class="tabs" id="t2">
+                    <h3>This is tabs 2</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatem aperiam molestiae repellendus, recusandae ipsa nihil, quos quo officiis exercitationem quisquam nulla earum minus necessitatibus eligendi tenetur sed sapiente quasi quibusdam quis, consequuntur natus. Iure sapiente ipsam eos accusamus corporis tenetur mollitia, optio maiores necessitatibus corrupti ducimus, sed quia hic.
+                </div>
+                <div class="tabs" id="t3">
+                    <h3>This is tabs 3</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatem aperiam molestiae repellendus, recusandae ipsa nihil, quos quo officiis exercitationem quisquam nulla earum minus necessitatibus eligendi tenetur sed sapiente quasi quibusdam quis, consequuntur natus. Iure sapiente ipsam eos accusamus corporis tenetur mollitia, optio maiores necessitatibus corrupti ducimus, sed quia hic.
+                </div>
+                <div class="tabs" id="t4">
+                    <h3>This is tabs 4</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatem aperiam molestiae repellendus, recusandae ipsa nihil, quos quo officiis exercitationem quisquam nulla earum minus necessitatibus eligendi tenetur sed sapiente quasi quibusdam quis, consequuntur natus. Iure sapiente ipsam eos accusamus corporis tenetur mollitia, optio maiores necessitatibus corrupti ducimus, sed quia hic.
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer></footer>
+    <script src="/script.js"></script>
+    <script src="/assets/user-interface.js"></script>
+</body>
+</html>

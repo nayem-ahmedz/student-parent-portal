@@ -1,0 +1,22 @@
+function myFun(tV, event){
+    let activeTab = 't' + tV;
+    let tabs = document.getElementsByClassName('tabs');
+    for(let i=0; i<tabs.length; i++){
+        tabs[i].style.display = 'none';
+        }
+    document.getElementById(activeTab).style.display = 'block';
+    let tabButtons = document.getElementsByClassName('tab-name');
+    for(let i=0; i<tabButtons.length; i++){
+    tabButtons[i].classList.remove('ui-active');
+        }
+    event.target.classList.add('ui-active');
+}
+function showPanel(){
+    left = document.getElementById('ui-LEFT');
+    left.style.width = '200px';
+    left.style.backgroundColor = 'white';
+}
+function closePanel(){
+    left = document.getElementById('ui-LEFT');
+    left.style.width = '0';
+}

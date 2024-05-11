@@ -1,0 +1,76 @@
+/* Page : User Interface */
+.user-interface{
+    height: 500px; border: 1px solid red; width: 100%; position: relative;
+}
+#user-nav{
+    padding: 5px 15px; float: right; border: 1px solid gray; margin: 10px auto; position: relative; cursor: default;
+}
+#user-nav > i{
+    vertical-align: middle; font-size: 22px;
+}
+.user-nav-content{
+    position: absolute; z-index: 1; background-color: white; width: 100%; right: 0; top: 39px; display: none;
+}
+#user-nav:hover .user-nav-content{
+    display: block;
+}
+.user-nav-content > button{
+    width: 100%; padding: 10px 20px; border: 1px solid #bce;
+}
+.user-nav-content > button:hover{
+    background-color: black; color: white; cursor: pointer;
+}
+.user-interface::after, .u-i::after{
+    content: ""; clear: both; display: table;
+}
+.ui-left, .ui-right{
+    float: left; border: 1px solid gray; height: 100%;
+}
+.ui-left{
+    width: 25%;
+}
+#side-panel-x{
+    font-size: 22px; background: none; border: 1px solid; color: red; visibility: hidden;
+}
+.ui-left > .ui-image{
+    width: 150px; height: 150px; background-color: red; border-radius: 50%; margin: 0 auto;
+}
+.ui-left #ui-username{
+    text-align: center;
+}
+#ui-username{
+    margin-bottom: 50px;
+}
+.ui-left > button{
+    display: block; width: 100%; padding: 10px 20px; margin-bottom: 5px; background-color: white; border: 1px solid gray;
+}
+.ui-left > button:hover{
+    background-color: #eee;
+}
+.ui-right{
+    width: 75%;
+}
+#side-panel{
+    display: none;
+}
+.tabs{
+    display: none;  padding: 10px; height: 100%;
+}
+.ui-active{
+    background-color: #ccc !important;
+}
+
+@media screen and (max-width: 767px){
+    .ui-left{
+        width: 0; overflow: hidden; position: absolute; transition: all 0.5s;
+    }
+    .ui-right{
+        width: 100%; float: none;
+    }
+    #side-panel{
+        display: block;
+    }
+    #side-panel-x{
+        visibility: visible;
+    }
+}
