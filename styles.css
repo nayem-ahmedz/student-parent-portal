@@ -124,8 +124,7 @@ nav{
 
 /* Main */
 .main{
-    min-height: 500px;
-    border: 1px solid;
+    min-height: 500px; border: 1px solid gray;
     display: flex; flex-direction: column; justify-content: center; align-items: center;
 }
 .main-center{
@@ -147,17 +146,65 @@ nav{
 /* bottom */
 .bottom{
     min-height: 500px; padding: 60px 40px;
-    border: 1px solid;
     display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
+}
+.bottom > div > h3{
+    text-align: center; padding-bottom: 5px; border-bottom: 1px solid black;
 }
 .map-frame{
     flex-basis: 500px; height: 350px;
 }
 #map{
-    width: 100%; height: 100%; border: 1px solid blue;
+    width: 100%; height: calc(100% - 64px); border: 1px solid blue;
 }
 .b-panel{
-    width: 300px; height: 350px; border: 1px solid;
+    flex-basis: 260px; height: 350px;
+}
+.links-list{
+    margin: 0; padding: 0; list-style-type: none;
+}
+.links-list > li a:link, .links-list > li a:visited{
+    padding: 10px; display: block; text-decoration: none; background-color: #aaa; margin: 10px auto; border-radius: 8px; text-align: right; color: black;
+}
+.links-list > li a:hover{
+    background-color: blue; color: white;
+}
+
+/* Footer design */
+footer{
+    padding: 0; background-color: gray;
+    display: flex; justify-content: space-between; flex-wrap: wrap;
+}
+.fBox3{
+    padding: 10px; display: inline-block;
+}
+.f_campus{
+    padding-top: 40px;
+}
+.campus-box{
+    width: 220px; height: auto; margin: 15px; display: inline-block; box-shadow: 0 0 5px black; border-radius: 5px; overflow: auto; transition: all 0.5s;
+}
+.campus-box:hover{
+    transform: scale(1.15);
+}
+.campus-box > img{
+    width: 100%; height: 125px;
+}
+.campus-box > p{
+    background-color: rgba(0,0,0, 0.5); color: white; padding: 8px; margin: -5px 0 0; text-align: center;
+}
+.f_social{
+    display: flex; justify-content: center; align-items: center;
+}
+.f_i1{
+    margin-left: 0;
+}
+#developer{
+    font-size: 16px; line-height: 1.25; margin: 5px auto; text-align: center;
+}
+#copyright{
+    background-color: rgba(0,0,0, 0.5); color: #bbb; padding: 10px; margin-bottom: 0; text-align: center;
+    flex-basis: 100%; flex-grow: 1; flex-shrink: 0;
 }
 
 /* basic table styles */
@@ -174,6 +221,10 @@ nav{
     text-align: left;;
 }
 
+/* universla styles*/
+.itemsCenter{
+    text-align: center;
+}
 
 /* Media Screen */
 @media screen and (min-width: 1600px){
@@ -205,6 +256,9 @@ nav{
     .i1{
         margin-left: 0;
     }
+    .fBox3, .map-frame{
+        flex-basis: 100%; text-align: center;
+    }
 }
 @media screen and (max-width: 600px){
     .n-container{
@@ -232,5 +286,8 @@ nav{
     }
     .h-logo{
         width: 180px;
+    }
+    .b-panel{
+        flex-basis: 100%;
     }
 }

@@ -1,6 +1,6 @@
 // default script file
 function regiFun(){
-    document.location = '/re-nayem/signin-up.html?signup=true';
+    document.location = '/pages/signin-up.html?signup=true';
 }
 let navOpen = false;
 function myFunction(x) {

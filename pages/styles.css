@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0; background: linear-gradient(90deg, purple, rgb(245, 67, 155));
+    margin: 0;
 }
 .box{
     max-width: 350px; background-color: #eee; padding: 20px 25px 10px; border-radius: 5px; margin: 100px auto;
