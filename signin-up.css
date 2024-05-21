@@ -1,0 +1,208 @@
+
+
+/* sign in style */  
+
+
+
+
+#signupButton
+{
+
+
+    
+ height:35px; 
+  width:125px; 
+  
+ 
+
+
+
+}
+#loginButton
+{
+
+  
+
+ color:red; 
+ height:35px; 
+  width:125px; 
+  background: linear-gradient(to right ,#AE44B0, #F3429C);
+
+
+}
+ 
+  .signin
+{    
+    background:white; 
+     
+     border:3px solid rgb(170, 131, 131); 
+     text-align:center;
+     height:350px; 
+     width: 300px; 
+}    
+
+.signin input
+ {  
+
+     height:35px;
+     
+    width:250px; 
+     margin-top:20px;
+   
+  
+   
+
+
+ } 
+ #signin_button
+ {
+
+    height:30px;
+    width:260px; 
+    margin-top:20px;
+
+
+ } 
+ 
+ #signup_now_button
+ {       color:#F3429C;
+      
+        border:none; 
+ }  
+
+
+ .login_form {  
+    height:450px;  
+    width: 450px;
+
+    background: linear-gradient(to right ,#AE44B0, #F3429C);
+    display: flex;
+    align-items: center;
+          justify-content: center; 
+   
+  }   
+
+/* signup div  */
+
+
+
+
+.signup_div1
+{
+    height:500px;  
+    width: 450px;
+    background: linear-gradient(to right ,#AE44B0, #F3429C);
+    display: flex;
+     align-items: center; 
+         justify-content: center;  
+    
+}
+.signup_div2
+{   
+    background:white;    
+    border:3px solid rgb(170, 131, 131); 
+    text-align:center;
+    height:460px; 
+    width: 300px; 
+    
+}
+/* 
+.signup_div1 .signup_div2 .signup_inputs 
+{
+   
+
+     height:40px; 
+     margin-top:30px;
+
+} */
+/* 
+.signup_div1 .signup_div2 .signup_inputs {
+    height: 40px;
+    margin-top: 30px;
+}
+ */
+
+ #full_name
+ {
+    height:35px;   
+    width:250px; 
+    margin-top:15px;
+    
+ }
+
+ #student_id
+ {
+      
+    height:35px;   
+    width:250px; 
+     margin-top:15px;
+   
+
+ }
+#signup_email
+{
+         
+    height:35px;   
+    width:250px; 
+     margin-top:15px;
+   
+} 
+#signup_password
+{
+
+    height:35px;   
+    width:250px; 
+     margin-top:15px;
+
+
+}
+#signupconfirm_password
+{  
+    
+    height:35px;   
+    width:250px; 
+     margin-top:15px;
+
+}
+#sign_up_button
+{    
+    height:30px;
+    width:260px; 
+    margin-top:20px;
+
+}
+
+
+#signupButton1
+{
+
+
+    
+ height:35px; 
+  width:125px; 
+  background: linear-gradient(to right ,#AE44B0, #F3429C);
+  
+ 
+
+
+
+}
+#loginButton1
+{
+
+  
+
+ color:red; 
+ height:35px; 
+  width:125px; 
+  
+
+
+}
+ 
+
+
+
+
+
+

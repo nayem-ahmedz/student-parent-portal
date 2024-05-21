@@ -226,68 +226,112 @@ footer{
     text-align: center;
 }
 
+/* rayhan footer design */
+
+ 
+.container {
+
+    display: flex;
+    color:gray;
+
+}
+
+.left { 
+
+    flex: 1; /* Equal width for all divs */
+    border: 1px solid black; /* Just for visualization */
+    
+}
+
+.middle {
+    flex: 4; /* Middle div takes twice the width */
+}
+
+.fast
+{
+
+    flex:2; 
+    
+}
+.second
+{
+   flex:3; 
+   padding-left: 100px;
+   /* margin: 0 auto;  */
+   padding-left:100px; 
+ 
+
+}
+.div1
+{
+    display:flex; 
+   
+}
+.div2
+{
+
+    flex:1; 
+}
+.div3
+{
+
+    flex:2; 
+}
+
+#pid1
+{
+   color:white; 
+   text-align:center; 
+   margin:0 auto; 
+   padding-top:10px; 
+
+}
+.div_p
+{
+   color:gray; 
+   padding:0 px; 
+   margin:0 px; 
+
+}
+
+footer
+{
+   background-color: black;
+   
+}
+
+#reg_id
+{
+
+    text-align:center; 
+}
+.signup
+{
+
+  
+  
+    border:3px solid black;  
+   text-align: center; 
+   margin: 0 auto; 
+  
+
+
+}
+#button_id
+{ 
+      background-color:darkolivegreen;
+      text-align:center; 
+      height:25px;
+       width: 80px;
+       margin-top:10px; 
+}
+/* rayhan footer design  done */
+
+
+
 /* Media Screen */
 @media screen and (min-width: 1600px){
     body{
         padding: 0 250px;
-    }
-}
-@media screen and (max-width: 1023px){
-    header{
-        padding: 10px;
-    }
-    .h-logo{
-        width: 230px;
-    }
-}
-@media screen and (max-width: 767px){
-    .h-left > h1{
-        font-size: 32px; margin: 0px;
-    }
-    .h-left > h3{
-        margin: 20px auto;
-    }
-    .h-logo{
-        width: 200px;
-    }
-    .h-right{
-        margin-right: 0;
-    }
-    .i1{
-        margin-left: 0;
-    }
-    .fBox3, .map-frame{
-        flex-basis: 100%; text-align: center;
-    }
-}
-@media screen and (max-width: 600px){
-    .n-container{
-        display: block;
-    }
-    #nav-contents{
-        height: 0; overflow: hidden; z-index: 1;
-    }
-    .top-nav{
-        flex-direction: column; align-items: flex-end;
-    }
-    .d-content{
-        right: 0;
-    }
-}
-@media screen and (max-width: 424px){
-    .h-left > h1{
-        padding-top: 60px; transform: translate(10px, 10px);
-    }
-    .h-left > h3{
-        transform: translate(10px, 10px);
-    }
-    .h-right > .icons{
-        display: block; margin-left: 80px;
-    }
-    .h-logo{
-        width: 180px;
-    }
-    .b-panel{
-        flex-basis: 100%;
     }
 }
