@@ -3,7 +3,7 @@
     min-height: 550px; width: 100%; position: relative;
 }
 #user-nav{
-    padding: 5px 15px; float: right; border: 1px solid gray; margin: 10px auto; position: relative; cursor: default;
+    padding: 5px 15px; float: right; border: 1px solid gray; margin: 10px auto; position: relative; cursor: default; background-color: #8f7df1;
 }
 #user-nav > i{
     vertical-align: middle; font-size: 22px;
@@ -29,13 +29,14 @@
 }
 .ui-left{
     width: 25%;
+    background-color: #11579c;
 }
 #side-panel-x{
     font-size: 22px; background: none; border: 1px solid; color: red; visibility: hidden;
 }
 .ui-left > .ui-image{
     width: 100px; height: 100px; border-radius: 50%; margin: 20px auto auto;
-    background-image: url('/assets/blank-user.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;
+    background-image: url('blank-user.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;
 }
 .ui-left #ui-username{
     text-align: center;
@@ -47,10 +48,10 @@
     display: block; width: 100%; padding: 10px 20px; margin-bottom: 5px; background-color: white; border: 1px solid gray;
 }
 .ui-left > button:hover{
-    background-color: #eee;
+    background-color: #9440ad;
 }
 .ui-right{
-    width: 75%; border: 1px solid gray;
+    width: 75%; border: 1px solid rgb(31, 109, 219);
 }
 #side-panel{
     display: none;
@@ -59,7 +60,7 @@
     display: none;  padding: 10px; min-height: 550px;
 }
 .ui-active{
-    background-color: #ccc !important;
+    background-color: #efefef !important;
 }
 .last{
     text-align: center;
@@ -69,10 +70,11 @@
 #user-snippet{
     padding: 10px;
     text-align: center;
+    background-color: #7e99a9;
 }
 #user-pp-image{
     display: inline-block; height: 200px; width: 200px;
-    background-image: url('/assets/blank-user.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;
+    background-image: url('blank-user.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;
 }
 .user-info{
     display: inline-block; transform: translate(20px,-90px);

@@ -38,15 +38,43 @@ body{
     font-size: 16px; margin: 25px auto 15px;
 }
 .b-end > button{
-    background: none; border: 0; font-size: 15px; color: purple;
+    background: none; border: 0; font-size: 15px; color: #0033FF;
 }
 #signup-eq{
     display: none;
 }
+/* from gpt3 */
+#errorMessage1 {
+    text-align: center; color: red; transition: transform 0.2s ease-in-out;
+}
+#errorMessage1.scale-up {
+    transform: scale(1.2);
+}
+
+
+
+/* fixed message box */
+#messageBOX{
+    padding: 40px 10px 60px; text-align: center; width: 40%; background-color: white; border: 1px solid gray; border-radius: 10px; box-shadow: 0 0 5px black; z-index: 1; display: none;
+    position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+#mB-message{
+    font-size: 25px; color: blue;
+}
+#mB-link{
+    border: none; padding: 10px 20px; background-color: blue; color: white; border-radius: 5px; font-size: 16px;
+}
+#mB-username{
+    font-size: 18px;
+}
+.blur {
+    filter: blur(5px);
+    pointer-events: none;
+}
 
 /* Pages : marks and tution fees */
 .marks-form{
-    max-width: 900px; margin: auto; border: 1px solid; padding: 15px;
+    max-width: 900px; margin: 50px auto; border: 1px solid; padding: 15px;
 }
 .row{
     margin-bottom: 15px;

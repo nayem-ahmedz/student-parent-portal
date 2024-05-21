@@ -1,6 +1,6 @@
 // default script file
 function regiFun(){
-    document.location = '/pages/signin-up.html?signup=true';
+    document.location = 'pages/signin-up.php?signup=true';
 }
 let navOpen = false;
 function myFunction(x) {

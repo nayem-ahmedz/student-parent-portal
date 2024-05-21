@@ -4,57 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student-Parent Portal</title>
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/assets/user-interface.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../assets/user-interface.css">
     <script src="https://kit.fontawesome.com/e54598ab59.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div class="h-left">
-            <h1>Metropolitan University</h1>
-            <h3>Work for Excelency</h3>
-        </div>
-        <div class="h-right">
-            <img src="/assets/mu-logo-nobg.png" class="h-logo">
-            <div class="icons i1"></div>
-            <div class="icons i2"></div>
-            <div class="icons i3"></div>
-        </div>
-    </header>
-    <nav>
-        <ul class="top-nav">
-            <li> <a href="/index.html" class="home-btn"> <i class="fa-solid fa-house-chimney"></i> </a> </li>
-            <li>
-                <a href="" class="d-btn">About Us</a>
-                <div class="d-content">
-                    <a href="">Mission, Vision and Goals</a>
-                    <a href="">General information</a>
-                    <a href="">Office</a>
-                    <a href="">Our Campus</a>
-                    <a href="">Contact Us</a>
-                </div>
-            </li>
-            <li>
-                <a href="" class="d-btn">Admission</a>
-                <div class="d-content">
-                    <a href="">Admission Requirements</a>
-                    <a href="">Programs</a>
-                    <a href="">Apply</a>
-                </div>
-            </li>
-            <li>
-                <a href="" class="d-btn">Academic</a>
-                <div class="d-content">
-                    <a href="">Departsments</a>
-                    <a href="">Academic Information</a>
-                    <a href="">Academic Calender</a>
-                    <a href="">Notice and Events</a>
-                </div>
-            </li>
-            <li> <a href="">Results</a> </li>
-            <li> <a href="">Fees</a> </li>
-        </ul>
-    </nav>
+    <?php include('../includes/header-nav.php'); ?>
     <section>
         <article class="u-i">
             <div id="user-nav">
@@ -138,42 +93,8 @@
             </div>
         </article>
     </section>
-    <footer>
-        <div class="f_info fBox3">
-            <h2>Metropolitan University Bangladesh</h2>
-            <h3>Work for Excelency</h3>
-            <address>
-                Bateshwar, Sylhet-3104, Bangladesh <br>
-                Telephone: +88 02996642907-09 <br>
-                Mobile: +88 01313 050044, +88 01313 050066 <br>
-                Fax: +88 02996642910 <br>
-                Email: info@metrouni.edu.bd
-            </address>
-        </div>
-        <div class="f_campus fBox3 itemsCenter">
-            <div class="campus-box">
-                <img src="/assets/proposed-campus.jpg" class="f_images" alt="proposed campus">
-                <p>Proposed Permanent Campus</p>
-            </div>
-            <div class="campus-box">
-                <img src="/assets/current-campus.jpg" class="f_images" alt="current campus">
-                <p>Bateshwar Campus</p>
-            </div>
-        </div>
-        <div class="f_social fBox3">
-            <div>
-                <div class="icons i1 f_i1"></div>
-                <div class="icons i2"></div>
-                <div class="icons i3"></div>
-                <h5 id="developer">
-                    Developed and maintained by <br>
-                    Rayhan, Nayem and Hajifa
-                </h5>
-            </div>
-        </div>
-        <p id="copyright">Copyright © 2024. Metropolitan University Bangladesh || All rights reserved.</p>
-    </footer>
-    <script src="/script.js"></script>
-    <script src="/assets/user-interface.js"></script>
+    <?php include('../includes/footer.php'); ?>
+    <script src="../script.js"></script>
+    <script src="../assets/user-interface.js"></script>
 </body>
 </html>
