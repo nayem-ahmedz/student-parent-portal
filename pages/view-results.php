@@ -30,11 +30,14 @@
         h1, h2 {
             text-align: center;
         }
+        .view-error-message{
+            color: red; padding-top: 50px;
+        }
     </style>
 </head>
 <body>
     <?php include('../includes/header-nav.php'); ?>
-    <section style="padding-bottom: 50px;">
+    <section style="padding-bottom: 50px; min-height: 600px;">
     <?php
     session_start();
     include('../includes/db-config.php');
@@ -111,7 +114,7 @@
             displayStudentInfo($studentInfo);
             displayResults($studentId, $conn);
         } else {
-            echo "Error: Student information not found.";
+            echo '<h2 class="view-error-message">Error: Student information not found.</h2>';
         }
     } else {
         // If not logged in and no form submission, redirect to results.php

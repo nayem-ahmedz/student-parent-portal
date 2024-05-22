@@ -22,7 +22,7 @@
                     <form id="signinForm" action="process-signin.php" method="post">
                         <input type="email" id="user-email" name="user-email" placeholder="Email Address">
                         <input type="password" id="user-psw" name="user-psw" placeholder="Password">
-                        <a href="#" id="forgot-btn">Forgot Password?</a>
+                        <a href="#" id="forgot-btn" onclick="alert('unable to reset at the moments');">Forgot Password?</a>
                         <p id="errorMessage2">
                         <?php
             if (isset($_GET['error'])) {

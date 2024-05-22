@@ -38,7 +38,7 @@
         <div class="section" id="office">
             <h2>Office</h2>
             <p>Our main administrative office is located at:</p>
-            <p>[Insert Office Address]</p>
+            <p>Bateshwar, Sylhet-3104, Bangladesh</p>
         </div>
 
         <div class="section" id="campus">
@@ -49,10 +49,10 @@
         <div class="section" id="contact">
             <h2>Contact Us</h2>
             <div class="contact-info">
-                <p><strong>Email:</strong> [Insert Email Address]</p>
-                <p><strong>Phone:</strong> [Insert Phone Number]</p>
-                <p><strong>Fax:</strong> [Insert Fax Number]</p>
-                <p><strong>Address:</strong> [Insert Postal Address]</p>
+                <p><strong>Email:</strong> info@metrouni.edu.bd</p>
+                <p><strong>Phone:</strong>01313050044</p>
+                <p><strong>Fax:</strong>+88 02996642910</p>
+                <p><strong>Address:</strong> Bateshwar, Sylhet-3104, Bangladesh</p>
             </div>
         </div>
 

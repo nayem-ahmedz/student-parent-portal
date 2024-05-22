@@ -52,7 +52,7 @@ include 'get-student.php';
                         <div id="user-pp-image"></div>
                         <div class="user-info">
                             <p style="color: rgba(0,0,0, 0.6); margin-bottom: 5px;">User Id</p>
-                        <p style="margin-top: 5px;"><?php echo $_SESSION['user_id']; ?></p>
+                        <p style="margin-top: 5px;"><?php echo 'MU-SPP-' . $_SESSION['user_id']; ?></p>
                         </div>
                         <div class="user-details">
                             <table class="basic-table">

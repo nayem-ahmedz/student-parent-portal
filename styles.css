@@ -112,6 +112,7 @@ nav{
 /* logged in use nav */
 #user-nav{
     padding: 5px 15px; float: right; border: 1px solid gray; margin: 10px auto; position: relative; cursor: default; background-color: #8f7df1;
+    min-width: 120px; text-align: center;
 }
 #user-nav > i{
     vertical-align: middle; font-size: 22px;
@@ -163,7 +164,7 @@ nav{
     background:linear-gradient(to bottom, #05528B 0, #05528B 100%) ; color:white; padding: 10px 20px; font-size: 16px; border: none; border-radius: 10px; cursor: pointer; transition: 0.5s;
 }
 .main > button:hover{
-    background-color: white; color: black;
+    background-color: white; color: rgb(162, 217, 236);
 }
 
 /* bottom */

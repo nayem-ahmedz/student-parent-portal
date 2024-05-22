@@ -39,7 +39,7 @@
     display: none;
 }
 .tabs{
-    display: none;  padding: 10px; min-height: 550px;
+    display: none; min-height: 550px; margin-bottom: 50px;
 }
 .ui-active{
     background-color: #efefef !important;
@@ -52,7 +52,6 @@
 #user-snippet{
     padding: 10px;
     text-align: center;
-    background-color: #7e99a9;
 }
 #user-pp-image{
     display: inline-block; height: 200px; width: 200px;
