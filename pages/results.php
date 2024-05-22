@@ -13,7 +13,7 @@
     <section>
         <div class="marks-box">
             <div class="marks-form">
-                <form>
+                <form action="view-results.php" method="post">
                     <h2 class="cent">Fill out the form below to view marks</h2>
                     <div class="row">
                         <div class="col1">

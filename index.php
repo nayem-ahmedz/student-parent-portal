@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,15 +21,35 @@
             <a href="#" onclick="alert('You\'re already in Student-Parent Portal')">Student-Parent Portal</a>
             <h1>Parent-Student Portal</h1>
         </article>
+        <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) : ?>
+        <article class="u-i">
+            <div id="user-nav">
+                <p id="user-name" style="display: inline-block; margin: 5px;"><?php echo $_SESSION['username']; ?></p> 
+                <i class="fa-solid fa-angle-down" onclick="hideUserNav()"></i>
+                <div class="user-nav-content" id="user-nav-x">
+                    <button type="button" onclick="window.location.href='pages/edit-user.php'">Edit Profile</button>
+                    <button type="button">Setting</button>
+                    <button type="button" onclick="window.location.href='pages/sign-out.php'">Sign out</button>
+                </div>
+            </div>
+        </article>
+        <?php endif; ?>
         <article class="main">
             <div class="main-center">
                 <p>Welcome to</p>
                 <h2>Parent Student Portal</h2>
             </div>
-            <button type="button" onclick="regiFun()">Register Here</button>
-            <p>
-                Already have a account? <a href="pages/signin-up.php" id="h-centersign">Sign in</a>
-            </p>
+            <?php
+                if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+                // User is logged in, show welcome message and dashboard link
+                echo "<p>Welcome, " . htmlspecialchars($_SESSION['username']) . "!</p>";
+                echo '<button type="button" onclick="window.location.href=\'pages/user-interface.php\'">View Dashboard</button>';
+                } else {
+                // User is not logged in, show register and sign in options
+                echo '<button type="button" onclick="regiFun()">Register Here</button>';
+                echo '<p>Already have an account? <a href="pages/signin-up.php" id="h-centersign">Sign in</a></p>';
+                }
+            ?>
         </article>
         <article class="bottom">
             <div class="map-frame">
@@ -59,5 +82,6 @@
     </section>
     <?php include('includes/footer.php'); ?>
     <script src="script.js"></script>
+    <script src="assets/user-nav.js"></script>
 </body>
 </html>

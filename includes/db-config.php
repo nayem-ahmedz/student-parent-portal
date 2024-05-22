@@ -13,8 +13,5 @@ if ($conn->connect_error) {
     // If connection fails, send an error response
     http_response_code(500);
     die("Connection failed: " . $conn->connect_error);
-} else {
-    // If connection succeeds, send a success message
-    echo "Database connected successfully!";
 }
 ?>

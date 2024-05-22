@@ -2,25 +2,7 @@
 .user-interface{
     min-height: 550px; width: 100%; position: relative;
 }
-#user-nav{
-    padding: 5px 15px; float: right; border: 1px solid gray; margin: 10px auto; position: relative; cursor: default; background-color: #8f7df1;
-}
-#user-nav > i{
-    vertical-align: middle; font-size: 22px;
-}
-.user-nav-content{
-    position: absolute; z-index: 1; background-color: white; width: 100%; right: 0; top: 39px; transition: height 1s; overflow: hidden; height: 0;
-}
-#user-nav:hover .user-nav-content{
-    height: 110px;
-}
-.user-nav-content > button{
-    width: 100%; padding: 10px 20px; border: 1px solid #bce;
-}
-.user-nav-content > button:hover{
-    background-color: black; color: white; cursor: pointer;
-}
-.user-interface::after, .u-i::after{
+.user-interface::after{
     content: ""; clear: both; display: table;
 }
 /* left and right float started from here*/ 
@@ -79,7 +61,9 @@
 .user-info{
     display: inline-block; transform: translate(20px,-90px);
 }
-
+.basic-button{
+    border: none; padding: 10px 20px; font-size: 16px; border-radius: 10px;
+}
 
 @media screen and (max-width: 767px){
     .ui-left{

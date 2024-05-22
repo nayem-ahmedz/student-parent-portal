@@ -13,7 +13,7 @@
     <section>
         <div class="marks-box">
             <div class="marks-form">
-                <form>
+                <form action="view-fees.php" method="POST">
                     <h2 class="cent">Fill out the form below to track tution/semester fees</h2>
                     <div class="row">
                         <div class="col1">
