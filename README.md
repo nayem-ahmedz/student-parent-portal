@@ -106,31 +106,31 @@ _Last edited on 22 May 2024
 - **Student Dashboard**: Logged-in students can view their results and track tuition fees directly.
 
 ## Screenshots
-### Home Page
+### Home
 ![Home Page](screenshots/home.png)
 
-### Student Footer
+### Footer
 ![Student Dashboard](screenshots/footer.png)
 
-### Parent/Sign Up Form
+### Sign Up Form
 ![Parent/Guardian Form](screenshots/signup.png)
 
 ### Parent/Guardian Form
 ![Parent/Guardian Form](screenshots/marks-form.png)
 
-### Parent/Succesfully Sign up
+### Succesfully Sign up
 ![Parent/Guardian Form](screenshots/succes-signup.png)
 
-### Parent/User Dashboard
+### User Dashboard
 ![Parent/Guardian Form](screenshots/user-dashboard.png)
 
 ### Parent/Results
 ![Parent/Guardian Form](screenshots/results.png)
 
-### Parent/Responsible for smaller screen (Mobile)
+### Responsible for smaller screen (Mobile)
 ![Parent/Guardian Form](screenshots/small-screen.png)
 
-### Parent/Responsible for large screen (Desktop PC)
+### Responsible for large screen (Desktop PC)
 ![Parent/Guardian Form](screenshots/large-screen.png)
 
 ## Contributing
