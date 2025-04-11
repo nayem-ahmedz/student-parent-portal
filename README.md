@@ -17,8 +17,9 @@ Providing a digital and fast platform for students to stay in touch with the uni
 - **Guide:** Special thanks to our guide Muhtasim sir and Naeem Sir
 
 **Timeline:**  
-- **Initialized:** 17 April 2024 at 00:48  
-- **Completed:** 22 May 2024 at 11:45
+- **Initialized:** 17 April 2024 
+- **Completed:** 22 May 2024
+- **Last Updated on:** 11 April 2025
 
 ## Table of Contents
 
