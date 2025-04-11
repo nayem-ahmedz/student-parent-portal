@@ -16,10 +16,10 @@ session_start();
         <article class="top-panel">
             <a href="#" onclick="alert('Link goes to University\'s Website')">Home</a>
             <i class="fa-solid fa-angle-right"></i>
-            <a href="#" onclick="alert('Link goes to University\'s all Portal')">Portal</a>
+            <a href="#" onclick="alert('Link goes to University\'s all Portals')">Portal</a>
             <i class="fa-solid fa-angle-right"></i>
             <a href="#" onclick="alert('You\'re already in Student-Parent Portal')">Student-Parent Portal</a>
-            <h1>Parent-Student Portal</h1>
+            <h1>Student-Parent Portal</h1>
         </article>
         <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) : ?>
         <article class="u-i">
@@ -37,7 +37,7 @@ session_start();
         <article class="main">
             <div class="main-center">
                 <p>Welcome to</p>
-                <h2>Parent Student Portal</h2>
+                <h2>Student & Parent Portal</h2>
             </div>
             <?php
                 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {

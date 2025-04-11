@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Marks</title>
-    <link rel="stylesheet" href="/p300/styles.css">
-    <link rel="stylesheet" href="/p300/pages/styles.css">
+    <link rel="stylesheet" href="/student-parent-portal/styles.css">
+    <link rel="stylesheet" href="/student-parent-portal/pages/styles.css">
     <script src="https://kit.fontawesome.com/e54598ab59.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -88,6 +88,6 @@
         </div>
     </section>
     <?php include('../includes/footer.php'); ?>
-    <script src="/script.js"></script>
+    <script src="/student-parent-portal/script.js"></script>
 </body>
 </html>

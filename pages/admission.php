@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admission</title>
-    <link rel="stylesheet" href="/p300/styles.css">
+    <link rel="stylesheet" href="/student-parent-portal/styles.css">
     <link rel="stylesheet" href="../assets/drop3-pages.css">
     <script src="https://kit.fontawesome.com/e54598ab59.js" crossorigin="anonymous"></script>
 </head>

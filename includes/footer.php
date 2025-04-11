@@ -12,11 +12,11 @@
     </div>
     <div class="f_campus fBox3 itemsCenter">
         <div class="campus-box">
-            <img src="/p300/assets/proposed-campus.jpg" class="f_images" alt="proposed campus">
+            <img src="/student-parent-portal/assets/proposed-campus.jpg" class="f_images" alt="proposed campus">
             <p>Proposed Permanent Campus</p>
         </div>
         <div class="campus-box">
-            <img src="/p300/assets/current-campus.jpg" class="f_images" alt="current campus">
+            <img src="/student-parent-portal/assets/current-campus.jpg" class="f_images" alt="current campus">
             <p>Bateshwar Campus</p>
         </div>
     </div>
@@ -32,4 +32,4 @@
         </div>
     </div>
 </footer>
-<p id="copyright">Copyright © 2024. Metropolitan University Bangladesh || All rights reserved.</p>
+<p id="copyright">SP Portal - 2025 | Metropolitan University Bangladesh | All rights reserved.</p>
