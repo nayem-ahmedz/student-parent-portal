@@ -12,14 +12,14 @@ Providing a digital and fast platform for students to stay in touch with the uni
 
 **Project Team:**  
 - **Design:** Hajifa Begum Jui  
-- **Front-end Development:** Rayhan Ahmed and Hajifa  
+- **Front-end Development:** Rayhan Ahmed and Hajifa Begum Jui  
 - **Back-end Development:** Nayem Ahmed  
 - **Guide:** Special thanks to our guide Muhtasim sir and Naeem Sir
 
 **Timeline:**  
 - **Initialized:** 17 April 2024 
 - **Completed:** 22 May 2024
-- **Last Updated on:** 11 April 2025
+- **Last Updated on:** 29 April 2025
 
 ## Table of Contents
 
