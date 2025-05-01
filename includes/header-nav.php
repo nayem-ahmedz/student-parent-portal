@@ -1,13 +1,9 @@
 <header>
     <div class="h-left">
-        <h1>Metropolitan University</h1>
-        <h3>Work for Excelency</h3>
+        <img src="/student-parent-portal/assets/mu-logo-nobg.png" alt="mu-logo" class="h-logo">
     </div>
     <div class="h-right">
-        <img src="/student-parent-portal/assets/mu-logo-nobg.png" alt="mu-logo" class="h-logo">
-        <div class="icons i1" onclick="window.location.href='https://www.facebook.com/metropolitanuniversity/'"></div>
-        <div class="icons i2" onclick="document.location='https://youtube.com/@metropolitanuniversity346?si=B-33uaRiNrmvU0Wb'"></div>
-        <div class="icons i3" onclick="alert('link goes to twitter/mu');"></div>
+        <h1>Student-Parent Portal</h1>
     </div>
 </header>
 <nav>

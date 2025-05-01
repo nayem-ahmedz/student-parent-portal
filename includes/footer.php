@@ -1,7 +1,7 @@
 <footer>
     <div class="f_info fBox3">
         <h2>Metropolitan University Bangladesh</h2>
-        <h3>Work for Excelency</h3>
+        <h3>Works for Excelency</h3>
         <address>
                 Bateshwar, Sylhet-3104, Bangladesh <br>
                 Telephone: +88 02996642907-09 <br>

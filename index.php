@@ -19,7 +19,7 @@ session_start();
             <a href="#" onclick="alert('Link goes to University\'s all Portals')">Portal</a>
             <i class="fa-solid fa-angle-right"></i>
             <a href="#" onclick="alert('You\'re already in Student-Parent Portal')">Student-Parent Portal</a>
-            <h1>Student-Parent Portal</h1>
+            <h2>Online platform for MU students and, guardians</h2>
         </article>
         <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) : ?>
         <article class="u-i">

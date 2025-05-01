@@ -13,4 +13,4 @@ function myFunction(x) {
         a.style.height = 0;
         navOpen = false;
     }
-  }
+}
