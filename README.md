@@ -12,7 +12,7 @@ Providing a digital and fast platform for students to stay in touch with the uni
 
 **Project Team:**  
 - **Design:** Hajifa Begum Jui  
-- **Front-end Development:** Rayhan Ahmed and Hajifa  
+- **Front-end Development:** Rayhan Ahmed and Hajifa Begum Jui  
 - **Back-end Development:** Nayem Ahmed  
 - **Guide:** Special thanks to our guide Muhtasim sir and Naeem Sir
 
