@@ -19,7 +19,7 @@ Providing a digital and fast platform for students to stay in touch with the uni
 **Timeline:**  
 - **Initialized:** 17 April 2024 
 - **Completed:** 22 May 2024
-- **Last Updated on:** 11 April 2025
+- **Last Updated on:** 1 May 2025
 
 ## Table of Contents
 
